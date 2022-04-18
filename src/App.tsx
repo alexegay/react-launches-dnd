@@ -1,6 +1,6 @@
+import React from "react";
 import { Layout } from "antd";
 import { Content } from "antd/lib/layout/layout";
-import React from "react";
 import { Route, BrowserRouter, Routes, Navigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { Home } from "./views/home/Home";
