@@ -48,7 +48,7 @@ module.exports = {
   },
   output: {
     filename: "[name].[contenthash].js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "build"),
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -60,7 +60,7 @@ module.exports = {
     new CleanWebpackPlugin(),
   ],
   devServer: {
-    static: path.join(__dirname, "dist"),
+    static: path.join(__dirname, "build"),
     compress: true,
     port: 4000,
   },

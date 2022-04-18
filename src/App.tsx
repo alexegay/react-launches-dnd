@@ -1,16 +1,17 @@
 import React from "react";
 import { Layout } from "antd";
 import { Content } from "antd/lib/layout/layout";
-import { Route, BrowserRouter, Routes, Navigate } from "react-router-dom";
+import { Route, HashRouter, Routes, Navigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { Home } from "./views/home/Home";
 import { Modal } from "./components/modal";
 import { Header } from "./components/header";
 import Launch from "./views/lauch/Launch";
 import "react-toastify/dist/ReactToastify.css";
+import "./app.scss";
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Layout>
       <Header />
       <Content className="content">
@@ -23,7 +24,7 @@ const App = () => (
       <Modal />
       <ToastContainer autoClose={2000} />
     </Layout>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
