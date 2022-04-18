@@ -4,7 +4,6 @@ import React from "react";
 import { Route, BrowserRouter, Routes, Navigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { Home } from "./views/home/Home";
-import "./app.scss";
 import { Modal } from "./components/modal";
 import { Header } from "./components/header";
 import Launch from "./views/lauch/Launch";

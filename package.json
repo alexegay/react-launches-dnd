@@ -6,7 +6,8 @@
   "scripts": {
     "start": "NODE_ENV=dev && webpack serve --open --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --config webpack.config.js --mode production"
+    "build": "webpack --config webpack.config.js --mode production",
+    "heroku-prebuild": "npm install --dev"
   },
   "keywords": [],
   "author": "",
