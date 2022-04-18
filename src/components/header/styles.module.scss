@@ -1,0 +1,22 @@
+.header {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0 32px;
+  align-items: center;
+  position: relative;
+
+  &__logo {
+    font-size: 32px;
+    line-height: 64px !important;
+    vertical-align: -9px !important;
+    margin-right: 6px;
+  }
+
+  &__title {
+    display: inline-block;
+    line-height: 64px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}

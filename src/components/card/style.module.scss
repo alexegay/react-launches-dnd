@@ -1,0 +1,20 @@
+.card {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 24px 8px 48px;
+  min-height: 100px;
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+&__name{
+  font-weight: 600;
+}
+  &__rocket {
+    margin-top: 8px;
+  }
+}
